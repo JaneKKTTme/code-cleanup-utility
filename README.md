@@ -19,17 +19,17 @@ A VBScript utility that recursively deletes code files and empty folders. Perfec
 - [Disclaimer](#disclaimer)
 - [Pro Tip](#pro-tip)
 
-## 📋 Description
+## <a id="description"></a> 📋 Description
 This VBScript is designed to clean your file system from code files that keep multiplying when you're not looking! 🤖
 
-## ✨ Features
+## <a id="features"></a> ✨ Features
 - **Recursive file deletion** because who has time to delete things one by one?
 - **Safety checks** so you don't accidentally delete your thesis... again
 - **Recycle bin option** for those *"oh crap"* moments
 - **File type targeting** because only your code know what you did last summer
 - **Empty folder cleanup** because empty folders are just sad and unused
 
-### 🎯 Supported File Types
+### <a id="supported-file-types"></a> 🎯 Supported File Types
 The script hunts down these extensions like a determined cat chasing a laser pointer:
 - `.cpp`, `.c`, `.cxx` - C/C++ files
 - `.h`, `.hpp` - headers
@@ -38,19 +38,19 @@ The script hunts down these extensions like a determined cat chasing a laser poi
 - `.cs` - C# files
 - `.pas`, `.inc` - Pascal files (because why not?)
 
-### 🛡️ Safety Features
+### <a id="safety-features"></a> 🛡️ Safety Features
 - *Confirmation dialog* - Your last chance to chicken out
 - *Recycle bin mode* - The "undo" button you'll probably need
 - *Attribute checks* - Skips read-only and system files (usually)
 - *Folder existence verification* - So it doesn't delete your hopes and dreams
 
-## 🎪 How It Works
+## <a id="how-it-works"></a> 🎪 How It Works
 - Finds your `Users` folder (where all your secrets live)
 - Asks *"Are you sure?"*
 - Goes on a recursive deleting spree
 - Shows you a count of your life choices
 
-## 🚀 How to Use
+## <a id="how-to-use"></a> 🚀 How to Use
 1. Pray to the tech gods
 2. Save the .vbs file on your desktop
 3. **Double-check your backups. Seriously.**
@@ -60,14 +60,14 @@ wscript delete_all_code.vbs
 ```
 Or just double-click and hope for the best! 🎲
 
-## ⚙️ Configuration
+## <a id="configuration"></a> ⚙️ Configuration
 In the Main() function, you can choose your level of bravery:
 ```vbscript
 copied = True  ' 🟢 Safe mode (goes to recycle bin)
 copied = False ' 🔥 YOLO mode (permanent deletion)
 ```
 
-## 💀 Warning Label
+## <a id="warning-label"></a> 💀 Warning Label
 **THIS SCRIPT COMES WITH NO WARRANTY EXCEPT THE WARRANTY THAT YOU'LL PROBABLY REGRET USING IT**
 
 Before running:
@@ -76,7 +76,7 @@ Before running:
 - ✅ Say goodbye to your files
 - ✅ Consider therapy
 
-## 🆘 Help, I Deleted Everything!
+## <a id="help-i-deleted-everything"></a> 🆘 Help, I Deleted Everything!
 **First:** Panic! 🚨
 
 **Then:**
@@ -85,7 +85,7 @@ Before running:
 - Cry softly (we've all been there)
 - Learn a valuable lesson about running scripts from the Internet
 
-## 🛠️ Possible Improvements
+## <a id="possible-improvements"></a> 🛠️ Possible Improvements
 - Graphical User Interface (GUI): Because typing is hard, and buttons are pretty.
 - Undo Functionality: For those who panic after clicking "Yes".
 - Dry-Run Mode: See what would be deleted without actually deleting anything (the ultimate coward mode!).
@@ -93,7 +93,7 @@ Before running:
 - Log File Generation: Get a detailed report of what was deleted, for post-apocalyptic analysis.
 - Better Error Handling: Make the script slightly less dramatic when it encounters a problem.
 
-### 🔮 Nearest Plans
+### <a id="feature-ideas"></a> 🔮 Nearest Plans
 Even the most dangerous tools can be sharpened! Here are some ideas for future versions:
 
 🎯 **The "Where to Wreak Havoc?" Module**
@@ -105,12 +105,12 @@ Even the most dangerous tools can be sharpened! Here are some ideas for future v
 🔪 **The "Permanent Annihilation" Toggle**
 - A switch for the brave (or foolish): add a clear user option to choose between "sending to the Recycle Bin" (for mortals) and "permanent deletion" (for those who like to live on the edge with no safety net).
 
-## 📜 License
+## <a id="license"></a> 📜 License
 WTFPL (Want to Forget This Probably Landed me or someone in trouble) License
 
 This script is provided *"as is"* - which is lawyer-speak for *"you're on your own, buddy!"*
 
-## 🎭 Disclaimer
+## <a id="disclaimer"></a> 🎭 Disclaimer
 The author takes **no** responsibility for:
 - Lost code, hopes and dreams
 - Broken projects
@@ -118,7 +118,7 @@ The author takes **no** responsibility for:
 - Existential crises caused by file deletion
 - The sudden urge to become a farmer after running this
 
-## 💡 Pro Tip
+## <a id="pro-tip"></a> 💡 Pro Tip
 If the script asks "Are you sure?" and you hesitate for more than 3 seconds, maybe don't click "Yes". Just maybe. 🤔
 
 > Remember: rm -rf / is for Linux beginners. This is for Windows professionals who like to live dangerously! 😎
